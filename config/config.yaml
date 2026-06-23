@@ -1,0 +1,13 @@
+# config/config.yaml
+data_path:
+  raw_log: "data/raw/UserBehavior.csv"
+  processed_features: "data/processed/features.parquet"
+
+split_window:
+  train_end: "2026-06-15"
+  label_start: "2026-06-16"
+  label_end: "2026-06-22"
+
+model_params:
+  random_seed: 42
+  auc_threshold: 0.80
